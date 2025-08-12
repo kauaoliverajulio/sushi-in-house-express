@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushi in House Express | CURITIBA | Delivery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="location-info">
+                <div class="location-dropdown">
+                    <select id="location">
+                        <option value="curitiba">Curitiba - PR</option>
+                    </select>
+                </div>
+                <p class="address-prompt">Informe seu endereço</p>
+                <p class="address-info">Você verá apenas os restaurantes e mercados que entregam onde você está.</p>
+                <div class="address-buttons">
+                    <button class="btn-secondary">Ignorar</button>
+                    <button class="btn-primary">Informar</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Restaurant Info -->
+    <section class="restaurant-info">
+        <div class="container">
+            <div class="restaurant-header">
+                <h1 class="restaurant-name">Sushi in House Express</h1>
+                <div class="restaurant-details">
+                    <span class="rating">★ Novidade no iFood</span>
+                    <span class="min-order">Pedido mínimo R$ 40,00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search and Categories -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar no cardápio" id="searchInput">
+            </div>
+            <div class="categories">
+                <button class="category-btn active" data-category="all">Todos</button>
+                <button class="category-btn" data-category="yakissoba">Yakissoba/Tepan</button>
+                <button class="category-btn" data-category="promo">Promo</button>
+                <button class="category-btn" data-category="combos">Combos</button>
+                <button class="category-btn" data-category="sushis">Sushis</button>
+                <button class="category-btn" data-category="joe">Joe/Niguiri/Sashimis</button>
+                <button class="category-btn" data-category="temaki">Temaki</button>
+                <button class="category-btn" data-category="poke">Poke</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Content -->
+    <main class="menu-content">
+        <div class="container">
+            
+            <!-- Yakissoba/Tepan Section -->
+            <section class="menu-section" data-category="yakissoba">
+                <h2 class="section-title">Yakissoba/Tepan</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <h3>Yakissoba Frango</h3>
+                        <p class="description">Frango, legumes, macarrão, molho especial da casa</p>
+                        <span class="price">R$ 52,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Yakissoba Carne</h3>
+                        <p class="description">Carne, legumes, macarrão, molho especial da casa</p>
+                        <span class="price">R$ 55,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Yakissoba Misto</h3>
+                        <p class="description">Carne, frango, legumes, macarrão, molho especial da casa</p>
+                        <span class="price">R$ 56,99</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Yakissoba Vegetariano</h3>
+                        <p class="description">Macarrão, legumes, molho especial da casa</p>
+                        <span class="price">R$ 39,99</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Tepan salmão grelhado</h3>
+                        <p class="description">Gohan, legumes na manteiga, cream cheese, finalizado com cheiro verde e mix de gergelim torrado</p>
+                        <span class="price">R$ 69,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Tepan tilápia grelhada</h3>
+                        <p class="description">Gohan, tilápia grelhada, mix de legumes gratinados na manteiga, cream cheese, finalizado com cheiro verde e mix de gergelim torrado</p>
+                        <span class="price">R$ 59,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Tepan Frango Teriaki</h3>
+                        <p class="description">Gohan, mix de legumes gratinados na manteiga, cream cheese, frango no taré, finalizado com cheiro verde e mix de gergelim torrado</p>
+                        <span class="price">R$ 49,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Tepan Carne Katsu</h3>
+                        <p class="description">Gohan, mix de legumes gratinados na manteiga, carne no molho tonkatsu, cream cheese, finalizado com cheiro verde e mix de gergelim torrado</p>
+                        <span class="price">R$ 54,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Frango Xadrez</h3>
+                        <p class="description">Frango Xadrez 500 gr aproximadamente Frango, arroz Shari (arroz com tempero), mix de pimenta, cenoura, cebola e gergelim</p>
+                        <span class="price">R$ 39,90</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Promo Section -->
+            <section class="menu-section" data-category="promo">
+                <h2 class="section-title">Promo</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <h3>Combo express promo 11 pçs</h3>
+                        <p class="description">4 Uramaki Filadélfia 4 hosso de salmão 3 niguiri de salmão</p>
+                        <span class="price">R$ 42,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo express promo 12 pçs</h3>
+                        <p class="description">4 Uramaki Filadélfia 8 Hossomaki de pepino</p>
+                        <span class="price">R$ 41,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo express promo 16 pçs</h3>
+                        <p class="description">4 Futomaki paté 4 Uramaki Niromaki 4 Hosso de pepino 4 Hosso de kani</p>
+                        <span class="price">R$ 49,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo express promo 24 pçs</h3>
+                        <p class="description">8 Uramaki Filadélfia 8 Uramaki Niromaki 8 Uramaki de Kani</p>
+                        <span class="price">R$ 49,39</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo express promo 40 pçs</h3>
+                        <p class="description">4 Niguiri de salmão 4 Niguiri de Kani 8 Hosso de pepino 8 Hosso de kani 8 Uramaki skin 8 Uramaki Niromaki</p>
+                        <span class="price">R$ 80,99</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo express promo 50 pçs</h3>
+                        <p class="description">4 Niguiri de salmão 4 Niguiri skin 8 Hosso de pepino 8 Hosso de kani 8 Uramaki Niromaki 8 Uramaki skin 5 Futomaki de salmão 5 Futomaki de salmão</p>
+                        <span class="price">R$ 89,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo express promo 60 pçs</h3>
+                        <p class="description">4 Uramaki Filadélfia 8 Uramaki skin 8 Uramaki Niromaki 8 Hosso de pepino 8 Hosso de kani 8 Hosso de salmão 6 Niguiri de salmão 5 Futomaki de salmão 5 Futomaki de salmão</p>
+                        <span class="price">R$ 95,50</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Combos Section -->
+            <section class="menu-section" data-category="combos">
+                <h2 class="section-title">Combos</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <h3>Combo 01 Express c/24 peças</h3>
+                        <p class="description">8 Uramaki Califórnia 8 Uramaki Romeu e Julieta 8 Uramaki Niromaki</p>
+                        <span class="price">R$ 55,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo 02 Express c/8 peças</h3>
+                        <p class="description">4 Uramaki Filadélfia 4 Futomaki de Paté de salmão</p>
+                        <span class="price">R$ 39,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo 03 Express c/16 peças</h3>
+                        <p class="description">8 Uramaki Filadélfia 8 Uramaki Niromaki</p>
+                        <span class="price">R$ 49,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo 04 Express c/32 peças</h3>
+                        <p class="description">4 Uramaki Filadélfia 4 Uramaki Skin 4 Niguiri de Salmão 2 Joe 2 Joe Express 4 Hossomaki de Salmão 4 Kappamaki 4 Uramaki Romeu e Julieta 4 Futomaki de Salmão</p>
+                        <span class="price">R$ 89,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo 05 Express c/60 peças</h3>
+                        <p class="description">8 Uramaki Filadélfia 8 Uramaki Skin 8 Hossomaki de Salmão 8 Hossomaki de Kani 8 Hossomaki de Pepino 6 Niguiri de Salmão 5 Futomaki de Salmão 5 Futomaki de Paté de Salmão 4 Uramaki Romeu e Julieta</p>
+                        <span class="price">R$ 139,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo 06 Express c/42 peças</h3>
+                        <p class="description">12 Niguiri Salmão 12 Uramaki Filadélfia 10 Hossomaki de Salmão 8 Uramaki Filadélfia Especial</p>
+                        <span class="price">R$ 155,30</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo 07 Express c/42 peças</h3>
+                        <p class="description">8 Hossomaki Salmão 4 Uramaki Filadélfia 4 Uramaki Califórnia 4 Niguiri Salmão 4 Niguiri Tilápia 4 Niguiri Skin 5 Sashimi de Salmão 5 Sashimi de Tilápia</p>
+                        <span class="price">R$ 135,80</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo 08 Express c/11 peças</h3>
+                        <p class="description">2 Hossomaki salmão 4 Filadélfia 4 Sashimi de salmão 1 Temaki médio salmão filadélfia</p>
+                        <span class="price">R$ 79,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo 09 Express c/18 peças</h3>
+                        <p class="description">10 Sashimi de salmão 4 Niguiri de salmão 4 Joe</p>
+                        <span class="price">R$ 89,50</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo 10 Express c/16 peças</h3>
+                        <p class="description">4 Sashimi 4 Filadélfia 4 Hossomaki Salmão 2 Niguiri de Salmão 2 Joe</p>
+                        <span class="price">R$ 65,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo 11 Express c/12 peças</h3>
+                        <p class="description">4 Niguiri de Salmão 4 Joe Salmão 4 Joe Filadélfia</p>
+                        <span class="price">R$ 59,45</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo 12 Express c/100 peças</h3>
+                        <p class="description">12 Uramaki Filadélfia 12 Uramaki Skin 12 Romeu e Julieta 12 Hossomaki de Pepino 12 Hossomaki salmão 12 Hossomaki kani 12 Futomaki Salmão 12 Futomaki paté de salmão 4 Niguiri salmão<br>Serve 4 pessoas</p>
+                        <span class="price">R$ 215,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo 13 Express c/200 peças</h3>
+                        <p class="description">24 Hossomaki de Pepino 24 Hossomaki de kani 24 Hossomaki de Salmão 24 Uramaki Filadélfia 24 Uramaki Romeu e Julieta 24 Uramaki Skin 24 Futomaki de Salmão 24 Futomaki Paté de Salmão 8 Niguiri de Salmão</p>
+                        <span class="price">R$ 359,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo 14 Express C/34 peças (Combo da Casa)</h3>
+                        <p class="description">5 Sashimi de Salmão 5 Sashimi de Tilápia com limão 4 Niguiri de Tilápia com limão 4 Niguiri de Salmão 4 Uramaki Filadélfia 4 Hossomaki de Salmão 4 Hossomaki de Pepino 4 Joe</p>
+                        <span class="price">R$ 106,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo 15 Express c/25 peças</h3>
+                        <p class="description">5 Niguiri de Salmão 4 Niguiri Kanikama 4 Uramaki Filadélfia 4 Hossomaki de Salmão 4 Uramaki Filadélfia Especial 4 Hossomaki de Pepino</p>
+                        <span class="price">R$ 87,80</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo 16 Express c/22 peças</h3>
+                        <p class="description">6 Sashimi de Salmão 8 Uramaki Filadélfia 4 Niguiri de Salmão 4 Hossomaki de Salmão</p>
+                        <span class="price">R$ 79,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Combo 17 Express c/30 peças</h3>
+                        <p class="description">4 Niguiri de salmão maçaricado 4 Joe do chef maçaricado 4 Joe space(maçaricado) 4 Uramaki filadélfia especial 12 Sashimi de salmão 1 molho de maracujá 30 ml 1 molho de ostro 30 ml</p>
+                        <span class="price">R$ 139,90</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sushis Section -->
+            <section class="menu-section" data-category="sushis">
+                <h2 class="section-title">Sushis</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <h3>Uramaki filadélfia 8 und</h3>
+                        <p class="description">Arroz envolto na alga recheado com salmão e cream cheese</p>
+                        <span class="price">R$ 34,99</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Uramaki Niromaki 8 und</h3>
+                        <p class="description">Arroz envolto na alga recheado com salmão grelhado e cream cheese</p>
+                        <span class="price">R$ 34,99</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Uramaki Skin 8 und</h3>
+                        <p class="description">Arroz envolto na alga recheado com skin crocante e cream cheese</p>
+                        <span class="price">R$ 32,99</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Uramaki kanikama 8 und</h3>
+                        <p class="description">Arroz envolto na alga recheado com kani e cream cheese</p>
+                        <span class="price">R$ 32,99</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Uramaki Califórnia 8 und</h3>
+                        <p class="description">Arroz envolto em alga recheado com kani, manga e pepino</p>
+                        <span class="price">R$ 29,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Uramaki Romeu e Julieta 8 und</h3>
+                        <p class="description">Arroz envolto na alga recheado com cream cheese, morango e goiabada</p>
+                        <span class="price">R$ 31,99</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Uramaki salmão 8 und</h3>
+                        <p class="description">Serve 1 pessoa<br>Sem lactose</p>
+                        <span class="price">R$ 33,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Hossomaki Pepino 8 und</h3>
+                        <span class="price">R$ 10,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Hossomaki Kani 8 und</h3>
+                        <span class="price">R$ 16,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Futomaki Salmao 10 und</h3>
+                        <span class="price">R$ 26,00</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Futomaki Pate de Salmao 10 und</h3>
+                        <span class="price">R$ 26,00</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Joe/Niguiri/Sashimis Section -->
+            <section class="menu-section" data-category="joe">
+                <h2 class="section-title">Joe/Niguiri/Sashimis</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <h3>Joe Tilápia</h3>
+                        <span class="price">R$ 25,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Joe maçaricado 4 und</h3>
+                        <span class="price">R$ 31,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Joe salmão 4 und</h3>
+                        <span class="price">R$ 28,99</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Niguiri salmão 4 und</h3>
+                        <span class="price">R$ 27,99</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Niguiri skin 4 und</h3>
+                        <span class="price">R$ 21,99</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Niguiri tilápia 4 und</h3>
+                        <span class="price">R$ 23,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Sashimi Tilápia 4 und</h3>
+                        <span class="price">R$ 17,99</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Sashimi salmão 4 und</h3>
+                        <span class="price">R$ 21,99</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Temaki Section -->
+            <section class="menu-section" data-category="temaki">
+                <h2 class="section-title">Temaki</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <h3>Temaki salmão</h3>
+                        <p class="description">Cone recheado com arroz e salmão em cubos</p>
+                        <span class="price">R$ 43,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Temaki Filadélfia</h3>
+                        <p class="description">Cone recheado com arroz, salmão em cubos e Cream Cheese</p>
+                        <span class="price">R$ 45,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Temaki Joe</h3>
+                        <p class="description">Cone recheado com arroz e salmão batido com cream cheese e cebolinha</p>
+                        <span class="price">R$ 43,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Temaki salmão grelhado</h3>
+                        <p class="description">Cone recheado com arroz e salmão em cubos fritos</p>
+                        <span class="price">R$ 44,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Temaki Hot Crocante</h3>
+                        <p class="description">Cone recheado com arroz e Paté de salmão, Cream cheese empanado e frito</p>
+                        <span class="price">R$ 45,90</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Poke Section -->
+            <section class="menu-section" data-category="poke">
+                <h2 class="section-title">Poke</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <h3>Poke Filadélfia</h3>
+                        <p class="description">Arroz, salmão em cubos, cream cheese, pepino, cebola roxa, mix de gergelim</p>
+                        <span class="price">R$ 65,00</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Poke Tilapia crocante</h3>
+                        <p class="description">Arroz tilápia crocante, pepino, cebola roxa, tomate cereja, crispy de couve e mix de gergelim<br>Serve 1 pessoa<br>(500g)</p>
+                        <span class="price">R$ 63,99</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Poke Salmão</h3>
+                        <p class="description">Arroz japonês, salmão, sunomono, kani, Manga, cebola roxa, mix de gergelim e crispy de batata</p>
+                        <span class="price">R$ 59,90</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Poke Salmão Grelhado</h3>
+                        <p class="description">Arroz japonês, sunomono, kani, Batata Crispe, Cream Cheese, Salmão grelhado</p>
+                        <span class="price">R$ 67,99</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Poke Aloha</h3>
+                        <p class="description">Arroz japonês, sunomono, Cenoura, Manga, Cream Cheese, Salmão</p>
+                        <span class="price">R$ 65,99</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Poke Tilapia</h3>
+                        <p class="description">Arroz japonês, sunomono, Batata Crispe, Couve Crispa, Cream Cheese, Tilapia</p>
+                        <span class="price">R$ 59,99</span>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
